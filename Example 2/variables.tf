@@ -21,3 +21,14 @@ variable "subnet"{
     type = string
     default = "	subnet-0121c45f847534365"
 }
+
+variable "bucket"{
+    
+    default = "my-tf-test-bucket89"
+}
+
+variable environment{
+    type = string
+    description = "Environment for deployment"
+    default = "dev"
+}
